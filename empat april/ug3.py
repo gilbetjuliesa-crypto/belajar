@@ -13,7 +13,7 @@ def proses(text):
 
         if d % 2 == 0:  
             odd.append(str(10 + d))
-        else:           # ganjil
+        else:           
             even.append(str(d + 6))
 
     print("=========================")

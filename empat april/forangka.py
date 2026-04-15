@@ -1,11 +1,13 @@
 def sorting_string(text):
-    total = 0
+    angka = []
 
     for c in text:
         if c.isdigit():
-            total += int(c)
+            angka.append(int(c))
 
-    return "Total: " + str(total)
+    angka.sort()
+
+    return " ".join(map(str, angka))
 
 
 if __name__ == "__main__":
